@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "ALS Gorizont Expanded Regular";
+    src: url(./assets/fonts/gorizont/gorizont-font.eot.ttf);
+    src: url(./assets/fonts/gorizont/gorizont-font.eot.ttf), url(./assets/fonts/gorizont/gorizont-font.eot.woff), url(./assets/fonts/gorizont/gorizont-font.eot.woff2);
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.als-gorizont {
+    font-family: "ALS Gorizont Expanded Regular";
+}
+
+* {
+    font-family: "ALS Gorizont Expanded Regular";
+}
